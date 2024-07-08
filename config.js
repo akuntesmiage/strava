@@ -2,8 +2,8 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 // ganti info bot dibawah ini
-global.botName = "Xbug"
-global.ownerName = "BLANK"
+global.botName = "Xbug-hiro"
+global.ownerName = "RIFF_GANZZ😋"
 global.botNumber = "628895154319"
 global.devNumber = ["628895154319"]
 
