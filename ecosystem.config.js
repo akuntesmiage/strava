@@ -6,7 +6,6 @@ module.exports = {
     ignore_watch: ["connection/session/creds.json"],
     watch_options: {
       followSymlinks: false
-    },
-    restart_delay: 0
+    }
   }]
 }
