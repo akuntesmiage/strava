@@ -8,7 +8,9 @@ RUN apt-get update && \
     apt-get upgrade -y && \
     rm -rf /var/lib/apt/lists/*
 
-COPY package.json .
+WORKDIR /app
+
+COPY package.json ./
 
 RUN yarn install
 
