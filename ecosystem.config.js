@@ -7,6 +7,6 @@ module.exports = {
     watch_options: {
       followSymlinks: false
     },
-    restart_delay: 1000
+    restart_delay: 0
   }]
 }
